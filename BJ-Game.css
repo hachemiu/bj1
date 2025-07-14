@@ -1,0 +1,57 @@
+
+
+body{
+    text-align: center;
+    background-color:#016f32;
+    color: azure;
+   
+    
+   
+h1 {
+    color: goldenrod;
+    font-size:8em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+  
+#message-el {
+    
+    font-style: italic;
+    font-weight: bold;
+}
+
+p{
+    
+    font-size: 3em;
+}
+
+#player-el {  
+    color: rgba(255, 191, 0, 0.966);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+button{
+    width: 420px;
+    height: 70px;
+    color: #016f32;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    font-size: 2rem;
+    margin: 5px;
+    cursor:pointer
+}
+
+button:active {  
+    background: #e2b928; /* Slightly darker color when pressed */  
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.3); /* Inset shadow for pushed effect */  
+    transform: translateY(4px); /* Move it down slightly */  
+
+    
+}
+}
